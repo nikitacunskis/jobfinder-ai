@@ -1,0 +1,316 @@
+{
+  "core_technologies": {
+    "title": "Core Technologies",
+    "translation": "Pamata tehnoloģijas",
+    "skills": [
+      "PHP",
+      "Laravel",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Vue.js",
+      "React",
+      "Livewire",
+      "HTMX",
+      "jQuery",
+      "Go",
+      "SQL",
+      "HTML",
+      "CSS",
+      "SCSS"
+    ]
+  },
+  "frameworks_and_libraries": {
+    "title": "Frameworks & Libraries",
+    "translation": "Ietvari un bibliotēkas",
+    "skills": [
+      "Laravel",
+      "Filament",
+      "Filament Shield",
+      "Livewire",
+      "Laravel Reverb",
+      "Laravel Scout",
+      "Laravel Sanctum",
+      "Laravel Echo",
+      "Vue 3",
+      "Vue Router",
+      "Pinia",
+      "Vuex",
+      "React",
+      "Next.js",
+      "Express.js",
+      "Tailwind CSS",
+      "Axios",
+      "PHPUnit",
+      "Mockery"
+    ]
+  },
+  "architecture_and_software_design": {
+    "title": "Architecture & Software Design",
+    "translation": "Arhitektūra un programmatūras projektēšana",
+    "skills": [
+      "Platform Engineering",
+      "SaaS Architecture",
+      "Multi-Tenant Architecture",
+      "Marketplace Architecture",
+      "Microservices",
+      "Modular Monoliths",
+      "Event-Driven Architecture",
+      "Service Layer Design",
+      "Domain-Driven Design",
+      "DDD",
+      "Interface/Contract Driven Development",
+      "Strategy Pattern",
+      "Factory Pattern",
+      "Manager Pattern",
+      "RBAC Design",
+      "API-First Architecture",
+      "SSR Architecture",
+      "Queue-Based Processing",
+      "Worker-Based Systems",
+      "Multi-Repository Systems",
+      "Git Submodule Architecture"
+    ]
+  },
+  "backend_engineering": {
+    "title": "Backend Engineering",
+    "translation": "Backend izstrāde",
+    "skills": [
+      "REST API Design",
+      "RESTful APIs",
+      "API",
+      "Authentication & Authorization",
+      "JWT",
+      "OAuth",
+      "Policy Design",
+      "Permission Systems",
+      "Queue Processing",
+      "Scheduled Jobs",
+      "Background Workers",
+      "Kafka",
+      "Webhooks",
+      "File Processing",
+      "PDF Generation",
+      "Spreadsheet Generation",
+      "Search Indexing",
+      "ETL Pipelines",
+      "Data Ingestion Pipelines",
+      "Data Normalization",
+      "Change Detection Systems"
+    ]
+  },
+  "databases_and_storage": {
+    "title": "Databases & Storage",
+    "translation": "Datubāzes un datu glabāšana",
+    "skills": [
+      "MySQL",
+      "PostgreSQL",
+      "Redis",
+      "Memcached",
+      "JSONB",
+      "Eloquent ORM",
+      "Database Design",
+      "Database Migrations",
+      "Schema Design",
+      "Search Optimization",
+      "S3 Storage",
+      "SFTP Storage",
+      "CDN Integration"
+    ]
+  },
+  "search_and_data_processing": {
+    "title": "Search & Data Processing",
+    "translation": "Meklēšana un datu apstrāde",
+    "skills": [
+      "Meilisearch",
+      "Sphinx Search",
+      "Elasticsearch",
+      "pg_trgm",
+      "Full-Text Search",
+      "Search Indexing",
+      "OSINT Pipelines",
+      "CSV Processing",
+      "XML Processing",
+      "RSS Processing",
+      "XLSX Processing",
+      "PDF Processing",
+      "Data Deduplication",
+      "Graph Data Processing"
+    ]
+  },
+  "frontend_engineering": {
+    "title": "Frontend Engineering",
+    "translation": "Frontend izstrāde",
+    "skills": [
+      "SPA Development",
+      "SSR Applications",
+      "Component Architecture",
+      "State Management",
+      "Dynamic CMS Rendering",
+      "Dashboard Development",
+      "Admin Panels",
+      "E-commerce Frontends",
+      "Interactive Data Visualization",
+      "Responsive UI",
+      "Realtime UI"
+    ]
+  },
+  "devops_and_infrastructure": {
+    "title": "DevOps & Infrastructure",
+    "translation": "DevOps un infrastruktūra",
+    "skills": [
+      "Git",
+      "Docker",
+      "Docker Compose",
+      "Kubernetes",
+      "Nginx",
+      "Caddy",
+      "Traefik",
+      "PHP-FPM",
+      "Jenkins",
+      "GitHub Actions",
+      "GitLab",
+      "GitLab CI",
+      "GitLab Registry",
+      "CI/CD",
+      "Linux Services",
+      "Systemd",
+      "TLS/HTTPS",
+      "Reverse Proxies",
+      "Container Orchestration",
+      "Health Monitoring",
+      "Makefiles",
+      "Bash",
+      "Bash Automation"
+    ]
+  },
+  "cloud_and_observability": {
+    "title": "Cloud & Observability",
+    "translation": "Mākoņpakalpojumi un novērojamība",
+    "skills": [
+      "AWS",
+      "AWS S3",
+      "AWS CloudWatch",
+      "Google Cloud Platform",
+      "Prometheus",
+      "Jaeger",
+      "Sentry",
+      "Laravel Telescope",
+      "Logging Systems",
+      "Monitoring Systems",
+      "Tracing Systems"
+    ]
+  },
+  "realtime_systems": {
+    "title": "Realtime Systems",
+    "translation": "Reāllaika sistēmas",
+    "skills": [
+      "WebSockets",
+      "Laravel Reverb",
+      "Laravel Echo",
+      "Pusher",
+      "Event Broadcasting",
+      "Realtime Messaging",
+      "Chat Systems",
+      "Notification Systems"
+    ]
+  },
+  "integrations": {
+    "title": "Integrations",
+    "translation": "Integrācijas",
+    "skills": [
+      "Stripe",
+      "Checkout.com",
+      "Ogone",
+      "Wirecard",
+      "Twilio",
+      "SendGrid",
+      "Customer.io",
+      "AppsFlyer",
+      "Onfido",
+      "Sumsub",
+      "TransUnion",
+      "Duffel",
+      "Expedia",
+      "Google Places API",
+      "Google Geocoding API",
+      "Meta OAuth",
+      "Instagram OAuth",
+      "Discord API",
+      "Polymarket APIs",
+      "Polygon RPC",
+      "Venipak",
+      "Klix",
+      "Latvian Company Registry",
+      "VAAD",
+      "LAD"
+    ]
+  },
+  "finance_and_trading": {
+    "title": "Finance & Trading",
+    "translation": "Finanses un tirdzniecība",
+    "skills": [
+      "BNPL Systems",
+      "Lending Platforms",
+      "Credit Decisioning",
+      "KYC Workflows",
+      "Credit Bureau Reporting",
+      "Payment Processing",
+      "Risk Management",
+      "Trading Automation",
+      "Prediction Markets",
+      "Arbitrage Systems",
+      "Portfolio Management"
+    ]
+  },
+  "e_commerce": {
+    "title": "E-Commerce",
+    "translation": "E-komercija",
+    "skills": [
+      "Product Catalogs",
+      "Checkout Systems",
+      "Shopping Carts",
+      "Wishlists",
+      "Reviews",
+      "Product Comparison",
+      "Coupons & Discounts",
+      "Loyalty Programs",
+      "Cashback Systems",
+      "Shipping Integrations",
+      "Order Management",
+      "Invoicing"
+    ]
+  },
+  "testing_and_quality": {
+    "title": "Testing & Quality",
+    "translation": "Testēšana un kvalitātes nodrošināšana",
+    "skills": [
+      "PHPUnit",
+      "Mockery",
+      "Unit Testing",
+      "Feature Testing",
+      "Integration Testing",
+      "Smoke Testing",
+      "Static Analysis",
+      "PHPStan",
+      "SonarQube",
+      "Code Quality Enforcement"
+    ]
+  },
+  "leadership_and_delivery": {
+    "title": "Leadership & Delivery",
+    "translation": "Tehniskā vadība un piegāde",
+    "skills": [
+      "Technical Leadership",
+      "Platform Ownership",
+      "Architecture Ownership",
+      "Team Mentoring",
+      "Technical Documentation",
+      "Incident Management",
+      "Release Planning",
+      "Integration Planning",
+      "Product Delivery",
+      "Stakeholder Communication"
+    ]
+  }
+}

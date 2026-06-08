@@ -1,0 +1,60 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: jobsucher-postgres
+    environment:
+      POSTGRES_DB: jobsucher
+      POSTGRES_USER: jobsucher
+      POSTGRES_PASSWORD: jobsucher
+    ports:
+      - "${POSTGRES_PORT:-5438}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    container_name: jobsucher-elasticsearch
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
+    ports:
+      - "${ELASTICSEARCH_PORT:-9200}:9200"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+    restart: unless-stopped
+
+  jobsucher:
+    build: .
+    container_name: jobsucher
+    ports:
+      - "${PORT:-8765}:8765"
+    environment:
+      PORT: 8765
+      APP_NAME: Jobsucher
+      APP_ENV: production
+      APP_KEY: base64:v0uwfieue27oUrOAIdAu9WOdTcakV3Or1lKCiDqWGM8=
+      APP_DEBUG: "false"
+      APP_URL: http://localhost:8765
+      DB_CONNECTION: pgsql
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_DATABASE: jobsucher
+      DB_USERNAME: jobsucher
+      DB_PASSWORD: jobsucher
+      SESSION_DRIVER: file
+      CACHE_STORE: file
+      QUEUE_CONNECTION: sync
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    depends_on:
+      - postgres
+      - elasticsearch
+    volumes:
+      - ./public/jobs.json:/app/public/jobs.json:ro
+      - ./public/profile.json:/app/public/profile.json:ro
+    restart: unless-stopped
+
+volumes:
+  postgres-data:
+  elasticsearch-data:
